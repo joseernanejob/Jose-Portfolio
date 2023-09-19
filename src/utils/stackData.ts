@@ -1,5 +1,5 @@
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiPostgresql, SiTypescript } from "react-icons/si";
+import { SiPostgresql, SiTypescript, SiNestjs } from "react-icons/si";
 import { FaGit, FaPython } from "react-icons/fa";
 import {
   FaDocker,
@@ -23,18 +23,18 @@ export const stackData = [
     title: "JS",
     img: FaJs,
   },
-  { title: "TypeScript", img: SiTypescript },
-  {
-    title: "Node JS",
-    img: FaNode,
-  },
   {
     title: "React",
     img: FaReact,
   },
   { title: "Next.js", img: TbBrandNextjs },
-  { title: "Docker", img: FaDocker },
+  { title: "TypeScript", img: SiTypescript },
+  {
+    title: "Node JS",
+    img: FaNode,
+  },
+  { title: "NestJS", img: SiNestjs },
   { title: "PostgreSQL", img: SiPostgresql },
-  { title: "Git", img: FaGit },
   { title: "Python", img: FaPython },
+  { title: "Git", img: FaGit },
 ];

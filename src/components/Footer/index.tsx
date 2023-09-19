@@ -9,7 +9,7 @@ import { Button } from "@/styles/Buttons";
 
 export const Footer = (): JSX.Element => {
   return (
-    <FooterWrapper id="social-media">
+    <FooterWrapper id='social-media'>
       <Container>
         <Flex>
           <UserImage
@@ -20,10 +20,10 @@ export const Footer = (): JSX.Element => {
             height={"70px"}
           />
           <Box css={{ marginLeft: "$2" }}>
-            <Text type="heading4" color="grey5" css={{ marginBottom: "$2" }}>
+            <Text type='heading4' color='grey5' css={{ marginBottom: "$2" }}>
               Thank you! {/* <HandEffect /> */}
             </Text>
-            <Text type="body1" color="grey2">
+            <Text type='body1' color='grey2'>
               Follow me on my social networks and let's talk
             </Text>
           </Box>
@@ -35,7 +35,7 @@ export const Footer = (): JSX.Element => {
             gap: "$2",
           }}
         >
-          <Button
+          {/* <Button
             className="instagram"
             type="circle"
             as="a"
@@ -52,12 +52,12 @@ export const Footer = (): JSX.Element => {
             href={`https://fb.com/${userData.facebookUser}`}
           >
             <FaFacebookF />
-          </Button>
+          </Button> */}
           <Button
-            className="linkedin"
-            type="circle"
-            as="a"
-            target="_blank"
+            className='linkedin'
+            type='circle'
+            as='a'
+            target='_blank'
             href={`https://linkedin.com/in/${userData.linkedinUser}`}
           >
             <FaLinkedinIn />

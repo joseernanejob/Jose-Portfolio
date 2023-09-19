@@ -25,14 +25,14 @@ export const Contacts = () => {
   const scale = useTransform(scrollYProgress, [0, 1], [0.1, 0.9]);
 
   return (
-    <ContactSection id="contact">
+    <ContactSection id='contact'>
       <Container>
         <ContactSectionContent ref={ref}>
           <motion.div style={{ scale }}>
             <ContactSectionText>
-              <Text type="heading2" color="grey4">
+              <Text type='heading2' color='grey4'>
                 Let's talk and{" "}
-                <Text as="span" type="heading2" color="brand1">
+                <Text as='span' type='heading2' color='brand1'>
                   develop solutions for your company
                 </Text>
                 , together!
@@ -40,7 +40,7 @@ export const Contacts = () => {
             </ContactSectionText>
           </motion.div>
           <ContactsCards>
-            <ContactCard>
+            {/* <ContactCard>
               <ContactCardImage className="wpp">
                 <FaWhatsapp color="#fff" size={24} />
               </ContactCardImage>
@@ -62,25 +62,25 @@ export const Contacts = () => {
                   Talk Now
                 </Text>
               </ContactCardContent>
-            </ContactCard>
+            </ContactCard> */}
 
             <ContactCard>
-              <ContactCardImage className="email">
-                <FaEnvelopeOpen color="#fff" size={24} />
+              <ContactCardImage className='email'>
+                <FaEnvelopeOpen color='#fff' size={24} />
               </ContactCardImage>
               <ContactCardContent>
-                <Text type="heading4" color="grey4">
+                <Text type='heading4' color='grey4'>
                   My email
                 </Text>
-                <Text color="grey2" type="body2">
+                <Text color='grey2' type='body2'>
                   Send me an email reporting feedbacks, suggestions and ideas
                 </Text>
 
                 <Text
-                  as="a"
-                  color="grey2"
-                  type="body2"
-                  target="_blank"
+                  as='a'
+                  color='grey2'
+                  type='body2'
+                  target='_blank'
                   href={`mailto=${userData.emailUser}`}
                   onClick={() =>
                     (window.location.href = "mailto:nekelpatrick.com")
@@ -91,22 +91,22 @@ export const Contacts = () => {
               </ContactCardContent>
             </ContactCard>
             <ContactCard>
-              <ContactCardImage className="linkedin">
-                <FaLinkedin color="#fff" size={24} />
+              <ContactCardImage className='linkedin'>
+                <FaLinkedin color='#fff' size={24} />
               </ContactCardImage>
               <ContactCardContent>
-                <Text type="heading4" color="grey4">
+                <Text type='heading4' color='grey4'>
                   My LinkedIn
                 </Text>
-                <Text color="grey2" type="body2">
+                <Text color='grey2' type='body2'>
                   We can create more constant interactions as well as a sharing
                   network
                 </Text>
                 <Text
-                  as="a"
-                  color="grey2"
-                  type="body2"
-                  target="_blank"
+                  as='a'
+                  color='grey2'
+                  type='body2'
+                  target='_blank'
                   href={linkedInUrl}
                 >
                   Go to LinkedIn now

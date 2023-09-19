@@ -25,6 +25,8 @@ import {
   ProjectsAreaSocialMediaMessage,
   ProjectAreaWrapperColumns,
   ProjectsAreaContent,
+  AboutArea,
+  AboutAreaMessage,
 } from "./style";
 
 export const Home = (): JSX.Element => {
@@ -32,7 +34,7 @@ export const Home = (): JSX.Element => {
   const portfolioUrl = `https://github.com/${userData.githubUser}/my-portfolio`;
 
   return (
-    <main id="home">
+    <main id='home'>
       <Header>
         <Container>
           <HeaderContent>
@@ -44,36 +46,36 @@ export const Home = (): JSX.Element => {
                 width={"48px"}
                 height={"48px"}
               />
-              <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
+              <Text color='grey4'>Hello, my name is {userData.nameUser}</Text>
             </Flex>
-            <Text as="h1" type="heading1" color="grey5">
-            I{" "}
-              <Text as="span" type="heading1" color="brand1">
+            <Text as='h1' type='heading1' color='grey5'>
+              I{" "}
+              <Text as='span' type='heading1' color='brand1'>
                 love
               </Text>{" "}
               creating and{" "}
-              <Text as="span" type="heading1" color="brand1">
+              <Text as='span' type='heading1' color='brand1'>
                 developing
               </Text>{" "}
               projects
             </Text>
-            <Text type="body1" color="grey2">
+            <Text type='body1' color='grey2'>
               Discover here in this environment, created especially for you, all
               my projects and technologies
             </Text>
             <HeaderButtonsArea>
-              <Button as="a" type="primary" href="#projects">
+              <Button as='a' type='primary' href='#projects'>
                 See Projects
               </Button>
-              <Button as="a" type="outline" target="_blank" href={portfolioUrl}>
+              <Button as='a' type='outline' target='_blank' href={portfolioUrl}>
                 See my portfolio source code
               </Button>
               <Button
-                color="grey5"
-                as="a"
+                color='grey5'
+                as='a'
                 css={{ "&:hover": { color: "$grey1" } }}
-                type="circle"
-                target="_blank"
+                type='circle'
+                target='_blank'
                 href={gihubUrl}
               >
                 <FaGithub />
@@ -87,16 +89,35 @@ export const Home = (): JSX.Element => {
           </HeaderContent>
         </Container>
       </Header>
-      <ProjectsArea id="projects">
+      <AboutArea id='about'>
+        <Container>
+          <AboutAreaMessage>
+            <Text as='h2' type='heading4' color='grey4'>
+              Sobre mim
+            </Text>
+            <Text as='p' type='body1' color='grey2'>
+              Sou um apaixonado pelo mundo da tecnologia e um desenvolvedor web
+              altamente motivado e dedicado. Desde criança, sempre tive
+              interesse em compreender como as coisas funcionam e como podem ser
+              aprimoradas por meio da tecnologia. Tenho formação acadêmica em
+              Análise e Desenvolvimento de Sistemas pela Faculdade Estácio e
+              também sou formado como Desenvolvedor Web Front-End pela Kenzie
+              Academy Brasil. Atualmente, exerço a função de monitor na Kenzie
+              Academy Brasil.
+            </Text>
+          </AboutAreaMessage>
+        </Container>
+      </AboutArea>
+      <ProjectsArea id='projects'>
         <Container>
           <ProjectAreaWrapperColumns>
             <ProjectsAreaSocialMediaMessage>
-              <Text as="h2" type="heading4" color="grey4">
+              <Text as='h2' type='heading4' color='grey4'>
                 My projects
               </Text>
-              <Text as="p" type="body1" color="grey2">
+              <Text as='p' type='body1' color='grey2'>
                 Some of my{" "}
-                <Text as="span" color="brand5">
+                <Text as='span' color='brand5'>
                   side projects
                 </Text>
               </Text>
