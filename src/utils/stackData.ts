@@ -1,5 +1,5 @@
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiPostgresql, SiTypescript, SiNestjs } from "react-icons/si";
+import { SiPostgresql, SiTypescript, SiNestjs, SiSpring } from "react-icons/si";
 import { FaGit, FaPython } from "react-icons/fa";
 import {
   FaDocker,
@@ -10,8 +10,6 @@ import {
   FaReact,
   FaJava,
 } from "react-icons/fa";
-
-import { BiLogoSpringBoot } from "react-icons/bi";
 
 export const stackData = [
   {
@@ -37,7 +35,7 @@ export const stackData = [
     img: FaNode,
   },
   { title: "Java", img: FaJava },
-  { title: "Spring Boot", img: BiLogoSpringBoot },
+  { title: "Spring Boot", img: SiSpring },
   { title: "NestJS", img: SiNestjs },
   { title: "PostgreSQL", img: SiPostgresql },
   { title: "Python", img: FaPython },
