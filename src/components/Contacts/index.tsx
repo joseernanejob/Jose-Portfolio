@@ -31,11 +31,11 @@ export const Contacts = () => {
           <motion.div style={{ scale }}>
             <ContactSectionText>
               <Text type='heading2' color='grey4'>
-                Let's talk and{" "}
+                Vamos conversar e{" "}
                 <Text as='span' type='heading2' color='brand1'>
-                  develop solutions for your company
+                  desenvolver soluções para sua empresa
                 </Text>
-                , together!
+                , juntos!
               </Text>
             </ContactSectionText>
           </motion.div>
@@ -70,10 +70,10 @@ export const Contacts = () => {
               </ContactCardImage>
               <ContactCardContent>
                 <Text type='heading4' color='grey4'>
-                  My email
+                  Meu email
                 </Text>
                 <Text color='grey2' type='body2'>
-                  Send me an email reporting feedbacks, suggestions and ideas
+                  Envie-me um e-mail relatando feedbacks, sugestões e ideias
                 </Text>
 
                 <Text
@@ -86,7 +86,7 @@ export const Contacts = () => {
                     (window.location.href = "mailto:nekelpatrick.com")
                   }
                 >
-                  Send me an email
+                  Mande-me um email
                 </Text>
               </ContactCardContent>
             </ContactCard>
@@ -96,11 +96,11 @@ export const Contacts = () => {
               </ContactCardImage>
               <ContactCardContent>
                 <Text type='heading4' color='grey4'>
-                  My LinkedIn
+                  Meu LinkedIn
                 </Text>
                 <Text color='grey2' type='body2'>
-                  We can create more constant interactions as well as a sharing
-                  network
+                  Podemos criar interações mais constantes e também uma rede de
+                  compartilhamento
                 </Text>
                 <Text
                   as='a'
@@ -109,7 +109,7 @@ export const Contacts = () => {
                   target='_blank'
                   href={linkedInUrl}
                 >
-                  Go to LinkedIn now
+                  Acesse o LinkedIn agora
                 </Text>
               </ContactCardContent>
             </ContactCard>

@@ -8,7 +8,10 @@ import {
   FaJs,
   FaNode,
   FaReact,
+  FaJava,
 } from "react-icons/fa";
+
+import { BiLogoSpringBoot } from "react-icons/bi";
 
 export const stackData = [
   {
@@ -33,6 +36,8 @@ export const stackData = [
     title: "Node JS",
     img: FaNode,
   },
+  { title: "Java", img: FaJava },
+  { title: "Spring Boot", img: BiLogoSpringBoot },
   { title: "NestJS", img: SiNestjs },
   { title: "PostgreSQL", img: SiPostgresql },
   { title: "Python", img: FaPython },
