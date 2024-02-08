@@ -96,14 +96,25 @@ export const Home = (): JSX.Element => {
               Sobre mim
             </Text>
             <Text as='p' type='body1' color='grey2'>
-              Sou um apaixonado pelo mundo da tecnologia e um desenvolvedor web
-              altamente motivado e dedicado. Desde criança, sempre tive
-              interesse em compreender como as coisas funcionam e como podem ser
-              aprimoradas por meio da tecnologia. Tenho formação acadêmica em
-              Análise e Desenvolvimento de Sistemas pela Faculdade Estácio e
-              também sou formado como Desenvolvedor Web Front-End pela Kenzie
-              Academy Brasil. Atualmente, exerço a função de monitor na Kenzie
-              Academy Brasil.
+              Oi! Tenho uma ampla experiência no desenvolvimento de projetos
+              utilizando JavaScript ES6, TypeScript, Node.js, Python e Java.
+            </Text>
+            <Text as='p' type='body1' color='grey2'>
+              Além disso, destaco minha habilidade na construção de projetos
+              front-end com React e Next.js. Possuo vivência em metodologias
+              ágeis, como SCRUM, utilizando ferramentas como Trello para a
+              gestão de tarefas. Sou proficientes em controle de versionamento
+              com GIT e tenho experiência na construção de APIs, utilizando
+              frameworks como Express.js, NestJS, Django e Spring-Boot, com
+              sólidos conhecimentos em SQL, especialmente PostgreSQL.
+            </Text>
+            <Text as='p' type='body1' color='grey2'>
+              Sou formado em Análise e Desenvolvimento de Sistemas pela
+              Faculdade Estácio e, além disso, completei minha formação como
+              Desenvolvedor Web Full-Stack pela Kenzie Academy Brasil.
+              Atualmente, exerço a função de monitor na Kenzie Academy Brasil,
+              auxiliando outros desenvolvedores em projetos utilizando Html,
+              Css, Javascript, Typescript, React e Sass.
             </Text>
           </AboutAreaMessage>
         </Container>
