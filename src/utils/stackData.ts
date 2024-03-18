@@ -9,6 +9,7 @@ import {
   FaNode,
   FaReact,
   FaJava,
+  FaAngular,
 } from "react-icons/fa";
 
 export const stackData = [
@@ -29,6 +30,7 @@ export const stackData = [
     img: FaReact,
   },
   { title: "Next.js", img: TbBrandNextjs },
+  { title: "Angular", img: FaAngular },
   { title: "TypeScript", img: SiTypescript },
   {
     title: "Node JS",
