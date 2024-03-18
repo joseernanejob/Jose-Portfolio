@@ -14,7 +14,6 @@ export const Header = styled("header", {
   backgroundImage: `url(${backgroundImg})`,
   backgroundRepeat: "no-repeat",
   backgroundPosition: "right",
-  backgroundAttachment: "fixed",
   borderBottom: "2px solid $grey5",
   "@tablet": {
     backgroundPosition: "right -10% center",
